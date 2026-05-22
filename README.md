@@ -1,28 +1,45 @@
-# Descripción del proyecto
+Project Overview
 
-Este proyecto consiste en el análisis de datos históricos de videojuegos (hasta 2016) con el objetivo de identificar patrones que permitan reconocer qué factores influyen en el éxito de un videojuego.
+This project focuses on exploratory data analysis within the video game industry using Python. The objective was to identify sales trends, successful platforms, popular genres, and regional market behavior through data visualization and statistical analysis.
 
-El análisis está orientado a apoyar la toma de decisiones estratégicas para campañas de marketing y selección de plataformas y géneros con mayor potencial de éxito para el año 2017.
+Business Problem
 
-**Objetivo**
+Video game companies need to understand which platforms, genres, and regions generate the highest sales in order to make better marketing and investment decisions.
 
-Analizar datos históricos para identificar qué variables (plataforma, género, calificaciones, etc.) están asociadas a mayores ventas y éxito comercial en videojuegos.
+Objectives
+Analyze historical sales trends.
+Identify top-performing gaming platforms.
+Detect the most successful genres.
+Compare sales behavior across regions.
+Generate business-oriented insights.
+Technologies Used
+Python
+Pandas
+Matplotlib
+Jupyter Notebook
+Data Cleaning
 
-**Tareas realizadas**
+The dataset was cleaned by:
 
-- Limpieza y preparación de datos (valores nulos, tipos de datos)
-- Análisis exploratorio de datos (EDA)
-- Identificación de tendencias en ventas por plataforma y género
-- Análisis de la relación entre calificaciones y ventas
-- Generación de conclusiones basadas en datos
-  
-**Principales hallazgos**
-Algunas plataformas presentan ciclos de vida claros en el mercado Ciertos géneros muestran mayor estabilidad en ventas Las calificaciones de usuarios y críticos influyen en el desempeño comercial Existen diferencias regionales en las preferencias de videojuegos
+Handling missing values
+Standardizing column formats
+Removing duplicates
+Filtering inconsistent data
+Exploratory Data Analysis
 
-**Herramientas utilizadas**
+The analysis included:
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
+Platform sales evolution
+Genre popularity analysis
+Regional sales comparison
+Historical trend visualization
+Correlation analysis between reviews and sales
+Key Findings
+PS2 generated the highest historical sales volume.
+Wii experienced rapid growth between 2006 and 2009.
+Action and Sports genres dominated global sales.
+North America represented the strongest market.
+Some platforms showed short commercial life cycles.
+Business Conclusions
+
+The analysis helps understand the factors influencing commercial success in the gaming industry, providing valuable insights for strategic business and marketing decisions.
